@@ -1,0 +1,7 @@
+<script>
+  <% if logged_in? %>
+    window.currentUser = <%= @user.html_safe %>
+  <% end %>
+</script>
+
+<div id="root"></div>
