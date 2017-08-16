@@ -30,12 +30,26 @@ class SplashPage extends Component {
   }
 
   render(){
-    return(
-      <div className="splash-page">
-        <div className="splash-main" style={styles}>
-          Glitch Splash
+    var links;
+    if (!this.props.currentUser) {
+      links = (
+        <div style={{display:'flex',flexDirection:'column'}}>
           <Link to='/login'>Login</Link>
           <Link to='/signup'>Signup</Link>
+        </div>
+      );
+    } else {
+      links = <Link to='/home'>Home</Link>;
+    }
+
+    return(
+      <div className="splash-page">
+        <Header/>
+        <div className="splash-main" style={styles}>
+          Glitch Splash
+          <div className='links'>
+            { links }
+          </div>
         </div>
         { this.renderUser() }
       </div>

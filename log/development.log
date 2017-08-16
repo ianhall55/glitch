@@ -1440,3 +1440,472 @@ Processing by RootController#index as HTML
 Completed 200 OK in 39ms (Views: 36.0ms | ActiveRecord: 0.4ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-08-15 19:59:39 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (24.6ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by RootController#index as HTML
+  [1m[36mUser Load (13.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "ssRVw9bXEMEuH9hNZMDzn6MxJONIefB7qshmaOJ8ujs"], ["LIMIT", 1]]
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 441ms (Views: 360.1ms | ActiveRecord: 46.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-15 20:06:30 -0700
+Processing by RootController#index as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "ssRVw9bXEMEuH9hNZMDzn6MxJONIefB7qshmaOJ8ujs"], ["LIMIT", 1]]
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 787ms (Views: 783.1ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-15 20:07:32 -0700
+Processing by RootController#index as HTML
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "ssRVw9bXEMEuH9hNZMDzn6MxJONIefB7qshmaOJ8ujs"], ["LIMIT", 1]]
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 778ms (Views: 773.6ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-15 20:07:43 -0700
+Processing by RootController#index as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "ssRVw9bXEMEuH9hNZMDzn6MxJONIefB7qshmaOJ8ujs"], ["LIMIT", 1]]
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 30ms (Views: 25.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-15 20:09:14 -0700
+Processing by RootController#index as HTML
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "ssRVw9bXEMEuH9hNZMDzn6MxJONIefB7qshmaOJ8ujs"], ["LIMIT", 1]]
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 829ms (Views: 824.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-15 20:09:40 -0700
+Processing by RootController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "ssRVw9bXEMEuH9hNZMDzn6MxJONIefB7qshmaOJ8ujs"], ["LIMIT", 1]]
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 779ms (Views: 776.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-15 20:10:28 -0700
+Processing by RootController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "ssRVw9bXEMEuH9hNZMDzn6MxJONIefB7qshmaOJ8ujs"], ["LIMIT", 1]]
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 788ms (Views: 785.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-15 20:10:46 -0700
+Processing by RootController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "ssRVw9bXEMEuH9hNZMDzn6MxJONIefB7qshmaOJ8ujs"], ["LIMIT", 1]]
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 802ms (Views: 799.5ms | ActiveRecord: 0.4ms)
+
+
+Started DELETE "/api/session" for 127.0.0.1 at 2017-08-15 20:10:50 -0700
+Processing by Api::SessionController#destroy as */*
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "ssRVw9bXEMEuH9hNZMDzn6MxJONIefB7qshmaOJ8ujs"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = $1 AND ("users"."id" != $2) LIMIT $3[0m  [["username", "ian"], ["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (8.6ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "2B-wHxWSJVLqbXKJxx0glnqz7xaOfLmI6Dexx7g2awc"], ["updated_at", "2017-08-16 03:10:50.727180"], ["id", 1]]
+  [1m[35m (6.1ms)[0m  [1m[35mCOMMIT[0m
+Completed 500 Internal Server Error in 46ms (ActiveRecord: 15.7ms)
+
+
+  
+ActionView::MissingTemplate (Missing template api/users/show with {:locale=>[:en], :formats=>[:html, :text, :js, :css, :ics, :csv, :vcf, :png, :jpeg, :gif, :bmp, :tiff, :svg, :mpeg, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip, :gzip], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/ianhall/Projects/ruby/glitch/app/views"
+):
+  
+app/controllers/api/session_controller.rb:24:in `destroy'
+  Rendering /Users/ianhall/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/missing_template.text.erb
+  Rendered /Users/ianhall/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/missing_template.text.erb (0.8ms)
+Started GET "/" for 127.0.0.1 at 2017-08-15 20:11:05 -0700
+Processing by RootController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "ssRVw9bXEMEuH9hNZMDzn6MxJONIefB7qshmaOJ8ujs"], ["LIMIT", 1]]
+  Rendering root/index.html.erb within layouts/application
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "ssRVw9bXEMEuH9hNZMDzn6MxJONIefB7qshmaOJ8ujs"], ["LIMIT", 1]]
+  Rendered root/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 26ms (Views: 22.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-15 20:12:12 -0700
+Processing by RootController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "ssRVw9bXEMEuH9hNZMDzn6MxJONIefB7qshmaOJ8ujs"], ["LIMIT", 1]]
+  Rendering root/index.html.erb within layouts/application
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "ssRVw9bXEMEuH9hNZMDzn6MxJONIefB7qshmaOJ8ujs"], ["LIMIT", 1]]
+  Rendered root/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 812ms (Views: 809.0ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2017-08-15 20:12:19 -0700
+Processing by Api::SessionController#create as */*
+  Parameters: {"user"=>{"username"=>"ian", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "ian"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = $1 AND ("users"."id" != $2) LIMIT $3[0m  [["username", "ian"], ["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "EqW1fEtL2o0UuDcU89Y6ZOWY6MexwnZbTdCQwXBEVeY"], ["updated_at", "2017-08-16 03:12:19.338477"], ["id", 1]]
+  [1m[35m (2.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "EqW1fEtL2o0UuDcU89Y6ZOWY6MexwnZbTdCQwXBEVeY"], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.34ms)
+Completed 500 Internal Server Error in 84ms (ActiveRecord: 3.8ms)
+
+
+  
+ArgumentError (wrong number of arguments (1 for 0)):
+  
+app/models/user.rb:68:in `to_json'
+app/controllers/api/session_controller.rb:10:in `create'
+  Rendering /Users/ianhall/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /Users/ianhall/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /Users/ianhall/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.9ms)
+  Rendering /Users/ianhall/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /Users/ianhall/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
+  Rendering /Users/ianhall/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /Users/ianhall/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (1.2ms)
+  Rendered /Users/ianhall/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (68.0ms)
+Started POST "/api/session" for 127.0.0.1 at 2017-08-15 20:13:37 -0700
+Processing by Api::SessionController#create as */*
+  Parameters: {"user"=>{"username"=>"ian", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "ian"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = $1 AND ("users"."id" != $2) LIMIT $3[0m  [["username", "ian"], ["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "BQDigBc-8__v1TTFsN1_9IXSo0IV12H2eJ5DX9UvLts"], ["updated_at", "2017-08-16 03:13:47.952231"], ["id", 1]]
+  [1m[35m (5.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "BQDigBc-8__v1TTFsN1_9IXSo0IV12H2eJ5DX9UvLts"], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.26ms)
+Completed 500 Internal Server Error in 10814ms (ActiveRecord: 7.8ms)
+
+
+  
+ArgumentError (wrong number of arguments (1 for 0)):
+  
+app/models/user.rb:68:in `to_json'
+app/controllers/api/session_controller.rb:10:in `create'
+  Rendering /Users/ianhall/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /Users/ianhall/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /Users/ianhall/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.5ms)
+  Rendering /Users/ianhall/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /Users/ianhall/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendering /Users/ianhall/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /Users/ianhall/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.8ms)
+  Rendered /Users/ianhall/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (59.9ms)
+Started POST "/api/session" for 127.0.0.1 at 2017-08-15 20:14:13 -0700
+Processing by Api::SessionController#create as */*
+  Parameters: {"user"=>{"username"=>"ian", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "ian"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = $1 AND ("users"."id" != $2) LIMIT $3[0m  [["username", "ian"], ["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "DcWk7sGtfX1PZcJ7riLzhe53-1AgyrZp759gijOH5ls"], ["updated_at", "2017-08-16 03:14:15.031400"], ["id", 1]]
+  [1m[35m (6.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "DcWk7sGtfX1PZcJ7riLzhe53-1AgyrZp759gijOH5ls"], ["LIMIT", 1]]
+Completed 200 OK in 1810ms (Views: 4.7ms | ActiveRecord: 7.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-15 20:14:31 -0700
+Processing by RootController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "DcWk7sGtfX1PZcJ7riLzhe53-1AgyrZp759gijOH5ls"], ["LIMIT", 1]]
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 41ms (Views: 28.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-15 20:14:37 -0700
+Processing by RootController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "DcWk7sGtfX1PZcJ7riLzhe53-1AgyrZp759gijOH5ls"], ["LIMIT", 1]]
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 30ms (Views: 26.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-15 20:14:39 -0700
+Processing by RootController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "DcWk7sGtfX1PZcJ7riLzhe53-1AgyrZp759gijOH5ls"], ["LIMIT", 1]]
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 28ms (Views: 24.2ms | ActiveRecord: 0.7ms)
+
+
+Started DELETE "/api/session" for 127.0.0.1 at 2017-08-15 20:15:24 -0700
+Processing by Api::SessionController#destroy as */*
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "DcWk7sGtfX1PZcJ7riLzhe53-1AgyrZp759gijOH5ls"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = $1 AND ("users"."id" != $2) LIMIT $3[0m  [["username", "ian"], ["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.7ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "F3Xe1S5icabhaMKBfjP_FtzwgOXRtkwe07BW1tJQpRU"], ["updated_at", "2017-08-16 03:15:24.718175"], ["id", 1]]
+  [1m[35m (5.4ms)[0m  [1m[35mCOMMIT[0m
+Completed 500 Internal Server Error in 30ms (ActiveRecord: 7.5ms)
+
+
+  
+ActionView::MissingTemplate (Missing template api/users/show with {:locale=>[:en], :formats=>[:html, :text, :js, :css, :ics, :csv, :vcf, :png, :jpeg, :gif, :bmp, :tiff, :svg, :mpeg, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip, :gzip], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/ianhall/Projects/ruby/glitch/app/views"
+):
+  
+app/controllers/api/session_controller.rb:24:in `destroy'
+  Rendering /Users/ianhall/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/missing_template.text.erb
+  Rendered /Users/ianhall/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/missing_template.text.erb (0.4ms)
+Started GET "/" for 127.0.0.1 at 2017-08-15 20:16:17 -0700
+Processing by RootController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "DcWk7sGtfX1PZcJ7riLzhe53-1AgyrZp759gijOH5ls"], ["LIMIT", 1]]
+  Rendering root/index.html.erb within layouts/application
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "DcWk7sGtfX1PZcJ7riLzhe53-1AgyrZp759gijOH5ls"], ["LIMIT", 1]]
+  Rendered root/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 31ms (Views: 24.0ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2017-08-15 20:16:23 -0700
+Processing by Api::SessionController#create as */*
+  Parameters: {"user"=>{"username"=>"ian", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "ian"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = $1 AND ("users"."id" != $2) LIMIT $3[0m  [["username", "ian"], ["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "GXyz3bqzkRWMFwq4XqYggV3MTmiRHGscIqNEyvHoM10"], ["updated_at", "2017-08-16 03:16:23.694214"], ["id", 1]]
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "GXyz3bqzkRWMFwq4XqYggV3MTmiRHGscIqNEyvHoM10"], ["LIMIT", 1]]
+Completed 200 OK in 101ms (Views: 4.2ms | ActiveRecord: 11.6ms)
+
+
+Started DELETE "/api/session" for 127.0.0.1 at 2017-08-15 20:16:25 -0700
+Processing by Api::SessionController#destroy as */*
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "GXyz3bqzkRWMFwq4XqYggV3MTmiRHGscIqNEyvHoM10"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = $1 AND ("users"."id" != $2) LIMIT $3[0m  [["username", "ian"], ["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "iL7WCXwYyMNoh1Nw9vWk7R_y5puvDQv56BdKR4giwQ8"], ["updated_at", "2017-08-16 03:16:25.903988"], ["id", 1]]
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 200 OK in 14ms (Views: 2.5ms | ActiveRecord: 6.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-15 20:20:40 -0700
+Processing by RootController#index as HTML
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 679ms (Views: 676.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-15 20:22:08 -0700
+Processing by RootController#index as HTML
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 832ms (Views: 829.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/session" for 127.0.0.1 at 2017-08-15 20:22:15 -0700
+Processing by Api::SessionController#create as */*
+  Parameters: {"user"=>{"username"=>"ian", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "ian"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = $1 AND ("users"."id" != $2) LIMIT $3[0m  [["username", "ian"], ["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "fdrC82crIJfXzMu89x02ShCLWpADdxX2dVAH4sPJrIk"], ["updated_at", "2017-08-16 03:22:15.638963"], ["id", 1]]
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "fdrC82crIJfXzMu89x02ShCLWpADdxX2dVAH4sPJrIk"], ["LIMIT", 1]]
+Completed 200 OK in 75ms (Views: 1.0ms | ActiveRecord: 6.7ms)
+
+
+Started DELETE "/api/session" for 127.0.0.1 at 2017-08-15 20:22:17 -0700
+Processing by Api::SessionController#destroy as */*
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "fdrC82crIJfXzMu89x02ShCLWpADdxX2dVAH4sPJrIk"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = $1 AND ("users"."id" != $2) LIMIT $3[0m  [["username", "ian"], ["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "-rDVvVPdTFoggQyW2AmRfE-Bv-_-khm-RQvmnA_UuAk"], ["updated_at", "2017-08-16 03:22:17.847021"], ["id", 1]]
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 200 OK in 10ms (Views: 0.4ms | ActiveRecord: 6.8ms)
+
+
+Started POST "/api/users" for 127.0.0.1 at 2017-08-15 20:22:31 -0700
+Processing by Api::UsersController#create as */*
+  Parameters: {"user"=>{"email"=>"kasey@gmail.com", "username"=>"kasey", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "kasey"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+No serializer found for resource: "Username has already been taken"
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Array (0.08ms)
+Completed 422 Unprocessable Entity in 90ms (Views: 2.5ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/api/users" for 127.0.0.1 at 2017-08-15 20:22:40 -0700
+Processing by Api::UsersController#create as */*
+  Parameters: {"user"=>{"email"=>"pip@gmail.com", "username"=>"pippin", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "pippin"], ["LIMIT", 1]]
+  [1m[35mSQL (3.6ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["username", "pippin"], ["email", "pip@gmail.com"], ["password_digest", "$2a$10$QpBG6iqIKZdVzzawZwxEGOWnN/C6Mtc5ceorO2cggVW8QgTM3JaLi"], ["session_token", "3pqW85KQ1ueBFB9SNjy_Mns_EQqcszjdbf-bLa2k5bw"], ["created_at", "2017-08-16 03:22:40.186756"], ["updated_at", "2017-08-16 03:22:40.186756"]]
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = $1 AND ("users"."id" != $2) LIMIT $3[0m  [["username", "pippin"], ["id", 3], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "aZqcVKy6ephaf2_SgiyoPVFxTj-EE0NfuqkzsEIJDEo"], ["updated_at", "2017-08-16 03:22:40.194018"], ["id", 3]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "aZqcVKy6ephaf2_SgiyoPVFxTj-EE0NfuqkzsEIJDEo"], ["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.23ms)
+Completed 500 Internal Server Error in 83ms (ActiveRecord: 6.2ms)
+
+
+  
+ArgumentError (wrong number of arguments (1 for 0)):
+  
+app/models/user.rb:68:in `to_json'
+app/controllers/api/users_controller.rb:8:in `create'
+  Rendering /Users/ianhall/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb
+  Rendering /Users/ianhall/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.text.erb
+  Rendered /Users/ianhall/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_source.text.erb (0.4ms)
+  Rendering /Users/ianhall/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb
+  Rendered /Users/ianhall/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendering /Users/ianhall/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb
+  Rendered /Users/ianhall/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.text.erb (0.7ms)
+  Rendered /Users/ianhall/.rvm/gems/ruby-2.2.5/gems/actionpack-5.0.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.text.erb (52.2ms)
+Started GET "/" for 127.0.0.1 at 2017-08-15 20:23:21 -0700
+Processing by RootController#index as HTML
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 24ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/api/users" for 127.0.0.1 at 2017-08-15 20:23:31 -0700
+Processing by Api::UsersController#create as */*
+  Parameters: {"user"=>{"email"=>"pippy@gmail.com", "username"=>"pippin", "password"=>"[FILTERED]"}}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "pippin"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+No serializer found for resource: "Username has already been taken"
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with Array (0.12ms)
+Completed 422 Unprocessable Entity in 106ms (Views: 12.6ms | ActiveRecord: 7.4ms)
+
+
+Started POST "/api/users" for 127.0.0.1 at 2017-08-15 20:23:36 -0700
+Processing by Api::UsersController#create as */*
+  Parameters: {"user"=>{"email"=>"pippy@gmail.com", "username"=>"pip", "password"=>"[FILTERED]"}}
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "pip"], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "password_digest", "session_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["username", "pip"], ["email", "pippy@gmail.com"], ["password_digest", "$2a$10$.dmbmf6sG0j3HTRuIm80../XSUVk23gXnd59JjAZBZdRJJXQzZV3O"], ["session_token", "9JpFBRVTIU16ipIqf85Cax962xwKQnPl0q4-tjeNeEw"], ["created_at", "2017-08-16 03:23:37.046774"], ["updated_at", "2017-08-16 03:23:37.046774"]]
+  [1m[35m (5.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."username" = $1 AND ("users"."id" != $2) LIMIT $3[0m  [["username", "pip"], ["id", 4], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "users" SET "session_token" = $1, "updated_at" = $2 WHERE "users"."id" = $3[0m  [["session_token", "P5FDjGSmKQxLu_hQ-q4lRywI-VzPp9houtzNAt4GvSk"], ["updated_at", "2017-08-16 03:23:37.056148"], ["id", 4]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "P5FDjGSmKQxLu_hQ-q4lRywI-VzPp9houtzNAt4GvSk"], ["LIMIT", 1]]
+Completed 200 OK in 79ms (Views: 1.3ms | ActiveRecord: 8.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-15 20:29:44 -0700
+Processing by RootController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "P5FDjGSmKQxLu_hQ-q4lRywI-VzPp9houtzNAt4GvSk"], ["LIMIT", 1]]
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 779ms (Views: 775.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-15 20:30:25 -0700
+Processing by RootController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "P5FDjGSmKQxLu_hQ-q4lRywI-VzPp9houtzNAt4GvSk"], ["LIMIT", 1]]
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 778ms (Views: 775.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-15 20:30:52 -0700
+Processing by RootController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "P5FDjGSmKQxLu_hQ-q4lRywI-VzPp9houtzNAt4GvSk"], ["LIMIT", 1]]
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 40ms (Views: 37.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-15 20:30:54 -0700
+Processing by RootController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "P5FDjGSmKQxLu_hQ-q4lRywI-VzPp9houtzNAt4GvSk"], ["LIMIT", 1]]
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 36ms (Views: 33.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-15 20:31:45 -0700
+Processing by RootController#index as HTML
+  [1m[36mUser Load (1.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "P5FDjGSmKQxLu_hQ-q4lRywI-VzPp9houtzNAt4GvSk"], ["LIMIT", 1]]
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 946ms (Views: 939.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-15 20:31:50 -0700
+Processing by RootController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "P5FDjGSmKQxLu_hQ-q4lRywI-VzPp9houtzNAt4GvSk"], ["LIMIT", 1]]
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 30ms (Views: 27.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-15 20:31:51 -0700
+Processing by RootController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "P5FDjGSmKQxLu_hQ-q4lRywI-VzPp9houtzNAt4GvSk"], ["LIMIT", 1]]
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 27ms (Views: 24.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-15 20:31:59 -0700
+Processing by RootController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "P5FDjGSmKQxLu_hQ-q4lRywI-VzPp9houtzNAt4GvSk"], ["LIMIT", 1]]
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 28ms (Views: 26.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-15 20:32:03 -0700
+Processing by RootController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "P5FDjGSmKQxLu_hQ-q4lRywI-VzPp9houtzNAt4GvSk"], ["LIMIT", 1]]
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 789ms (Views: 786.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-15 20:32:13 -0700
+Processing by RootController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "P5FDjGSmKQxLu_hQ-q4lRywI-VzPp9houtzNAt4GvSk"], ["LIMIT", 1]]
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 31ms (Views: 27.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-15 20:32:14 -0700
+Processing by RootController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "P5FDjGSmKQxLu_hQ-q4lRywI-VzPp9houtzNAt4GvSk"], ["LIMIT", 1]]
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 791ms (Views: 787.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-15 20:35:13 -0700
+Processing by RootController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "P5FDjGSmKQxLu_hQ-q4lRywI-VzPp9houtzNAt4GvSk"], ["LIMIT", 1]]
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 823ms (Views: 820.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-15 20:35:33 -0700
+Processing by RootController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "P5FDjGSmKQxLu_hQ-q4lRywI-VzPp9houtzNAt4GvSk"], ["LIMIT", 1]]
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 26ms (Views: 22.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-15 20:36:24 -0700
+Processing by RootController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "P5FDjGSmKQxLu_hQ-q4lRywI-VzPp9houtzNAt4GvSk"], ["LIMIT", 1]]
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 804ms (Views: 800.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-08-15 20:37:21 -0700
+Processing by RootController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."session_token" = $1 LIMIT $2[0m  [["session_token", "P5FDjGSmKQxLu_hQ-q4lRywI-VzPp9houtzNAt4GvSk"], ["LIMIT", 1]]
+  Rendering root/index.html.erb within layouts/application
+  Rendered root/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 854ms (Views: 851.1ms | ActiveRecord: 0.4ms)
+
+

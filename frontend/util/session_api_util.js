@@ -1,5 +1,5 @@
 import $ from 'jquery'
-import { receiveCurrentUser, receiveSignupErrors, receiveLoginErrors } from '../actions';
+import { receiveCurrentUser, logoutUser, receiveSignupErrors, receiveLoginErrors } from '../actions';
 
 
 export const signup = function(user) {
@@ -29,13 +29,13 @@ export const login = function(user) {
   }
 };
 
-export const logout = function(success) {
-  $.ajax({
-    method: 'DELETE',
-    url: `api/session`,
-    success,
-    error: () => {
-      console.log("Logout error in SessionUtil#logout");
-    }
-  });
+export const logout = function() {
+  return (dispatch) => {
+    $.ajax({
+      method: 'DELETE',
+      url: `api/session`
+    })
+      .done(() => dispatch(logoutUser()))
+      .fail(() => console.log("Logout error in SessionUtil#logout"))
+  }
 };
