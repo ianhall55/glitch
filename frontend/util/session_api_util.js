@@ -19,13 +19,13 @@ export const signup = function(user) {
 export const login = function(user) {
   return (dispatch) => {
     $.post({ url: `api/session`, data: user })
-    .done((data) => {
-      dispatch(receiveCurrentUser(data));
-    })
-    .fail((xhr) => {
-      const errors = xhr.responseJSON;
-      dispatch(receiveLoginErrors(errors));
-    })
+      .done((data) => {
+        dispatch(receiveCurrentUser(data));
+      })
+      .fail((xhr) => {
+        const errors = xhr.responseJSON;
+        dispatch(receiveLoginErrors(errors));
+      })
   }
 };
 

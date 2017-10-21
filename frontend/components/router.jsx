@@ -6,6 +6,7 @@ import Splash from './splash/splash'
 import LoginForm from './login_form/login_form.jsx';
 import SignupForm from './signup_form/signup_form.jsx';
 import Home from './home';
+import StreamRoom from './stream_room';
 
 class AppRouter extends React.Component{
   constructor(props){
@@ -28,6 +29,7 @@ class AppRouter extends React.Component{
         <Route path="/login" component={ LoginForm }  />
         <Route path="/signup" component={ SignupForm }  />
         <Route path="/home" component={ Home } />
+        <Route path="/rooms/:roomId" component={ StreamRoom } />
   		</Router>
   	);
   }

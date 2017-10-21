@@ -9,7 +9,8 @@ class User < ActiveRecord::Base
   after_initialize :ensure_session_token
   # after_initialize :validate_pw_dig_or_facebook_uid
 
-  has_many :users
+  has_many :stream_rooms
+  has_many :messages
 
   # def self.find_or_create_from_auth_hash(auth_hash)
   #   if auth_hash[:provider] == 'facebook'
